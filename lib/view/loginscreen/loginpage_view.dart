@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_base_state/view/comp/custom_appbar.dart';
-import 'package:getx_base_state/controller/loginpage_controller.dart';
+import 'package:getx_base_state/view/controller/loginpage_controller.dart';
 
 class LoginpageView extends StatelessWidget {
    LoginpageView({ Key? key }) : super(key: key);

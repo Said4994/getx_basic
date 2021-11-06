@@ -19,14 +19,13 @@ class NetworkService implements INetworkService{
   @override
   Future? fetchData<T, F extends ParseModel>(String path, T requestModel, F responseModel,String ?method) async {
    try {
-      final response = await _dio.fetch(RequestOptions(path:path,data:requestModel,method:method??'GET'));
+      final response = await _dio.fetch(RequestOptions(path:path,data:requestModel,method:method));
       return _chechType(response, responseModel);
     }on DioError catch (e) {
      // ignore: avoid_print
      print(e.response!.statusCode);
     }
   }
-
 
    Response ? _chechType(Response response,dynamic responseModel){
     switch (response.data) {
@@ -39,3 +38,5 @@ class NetworkService implements INetworkService{
   }
 
 }
+
+

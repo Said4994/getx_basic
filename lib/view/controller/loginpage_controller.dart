@@ -6,4 +6,7 @@ class LoginPageController extends GetxController{
   void upToCounter(){
     counter.value++;
   }
+
+
+
 }

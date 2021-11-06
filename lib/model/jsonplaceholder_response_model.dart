@@ -23,7 +23,6 @@ class JsonPlaceHolderResponseModel extends ParseModel<JsonPlaceHolderResponseMod
     data['body'] = body;
     return data;
   }
-
   @override
   JsonPlaceHolderResponseModel fromJson(Map<String, dynamic> json)=>JsonPlaceHolderResponseModel.fromJson(json);
 }
