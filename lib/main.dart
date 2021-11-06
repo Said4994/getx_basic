@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       locale: Get.deviceLocale,
-      transitionDuration: const  Duration(milliseconds: 1500),
+      transitionDuration: const  Duration(milliseconds: 1250),
       debugShowCheckedModeBanner: false,
       defaultTransition: Transition.fadeIn,
       enableLog: true,

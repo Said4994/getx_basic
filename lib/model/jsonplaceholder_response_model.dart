@@ -1,6 +1,6 @@
 import 'package:getx_base_state/core/network/network_json_decode.dart';
 
-class JsonPlaceHolderResponseModel extends ConvertoJson<JsonPlaceHolderResponseModel> {
+class JsonPlaceHolderResponseModel extends ParseModel<JsonPlaceHolderResponseModel> {
   int ?userId;
   int ?id;
   String ?title;

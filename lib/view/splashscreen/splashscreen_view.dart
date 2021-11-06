@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_base_state/view/splashscreen/splashscreen_controller.dart';
+import 'package:getx_base_state/controller/splashscreen_controller.dart';
 
 class SplashScreenView extends StatelessWidget {
    SplashScreenView({ Key? key }) : super(key: key);
